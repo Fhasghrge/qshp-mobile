@@ -1,3 +1,5 @@
+const path = require('path');
+
 const config = {
   projectName: 'qshp-mobile',
   date: '2022-4-10',
@@ -66,6 +68,9 @@ const config = {
         }
       }
     }
+  },
+  alias: {
+    '@src': path.join(__dirname,  '../src')
   }
 }
 
