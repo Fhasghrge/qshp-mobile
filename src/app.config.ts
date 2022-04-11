@@ -5,6 +5,8 @@ export default defineAppConfig({
     'pages/login/index',
     'pages/postdetail/index',
     'pages/notification/index',
+    'pages/search/index',
+    'pages/classes/index'
   ],
   window: {
     backgroundTextStyle: 'light',
